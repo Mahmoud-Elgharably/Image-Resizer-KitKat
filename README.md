@@ -1,4 +1,4 @@
-# Weather-Journal App Project
+# Image Resizer KitKat
 
 ## Overview | Description
 
