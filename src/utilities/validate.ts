@@ -2,7 +2,7 @@ import fs from 'fs';
 import { ParsedQs } from 'qs';
 import constants from './constants';
 
-function isValid(query: ParsedQs | null | undefined) {
+function isValid(query: ParsedQs | null | undefined): string {
     if (query == null) {
         return 'Error - Invalid inputs';
     } else if (query == undefined) {

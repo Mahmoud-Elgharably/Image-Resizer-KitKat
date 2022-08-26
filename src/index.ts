@@ -9,7 +9,7 @@ const port = constants.port;
 app.use('/api', routes);
 
 // check for port to avoid allready in use error testing
-app.listen(port, () => {
+app.listen(port, (): void => {
     console.log(constants.srvrStr + constants.fullUrl + constants.port);
 });
 

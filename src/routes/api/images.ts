@@ -5,7 +5,7 @@ import constants from '../../utilities/constants';
 
 const images = express.Router();
 
-images.get('/', validation, logger, (req, res) => {
+images.get('/', validation, logger, (req: express.Request, res: express.Response): void => {
     // Creating an HTML file to contain the resized image
     res.send(
         constants.pgHtml(
